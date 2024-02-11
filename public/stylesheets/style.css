@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  background: linear-gradient(rgb(140, 236, 236), rgb(226, 233, 145));
+  width: 50vw;
+
+  padding: 3vw;
+}
+form input {
+  background-color: rgb(249, 255, 249);
+  font-size: 1.3vw;
+  padding: 0.5vw;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  width: 45vw;
+}
+input::placeholder {
+  color: rgb(136, 134, 134);
+}
+#locationLink {
+  height: 5vw;
+  font-size: 1.3vw;
+  word-wrap: break-word;
+  padding: 0.5vw;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: rgb(249, 255, 249);
+}
+#sub {
+  width: 10vw;
+  background-color: rgb(133, 135, 133);
+  font-size: 1.5vw;
+  text-transform: capitalize;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  padding: 0.8vw;
+  margin-top: 1vw;
+  color: black;
+}
+textarea {
+  width: 45vw;
+  height: 10vw;
+}

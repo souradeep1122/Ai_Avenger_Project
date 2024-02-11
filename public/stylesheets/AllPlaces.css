@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  padding: 3vw 10vw;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  letter-spacing: -0.1px;
+  background-color: transparent;
+
+  font-size: 1vw;
+  font-weight: 700;
+}
+.nav a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+}
+.nleft {
+  display: flex;
+  flex-direction: row;
+  gap: 3vw;
+}
+.nmid {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/*nearest*/
+
+.nearest {
+  padding: 5vw;
+}
+.nearheading {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+  justify-content: center;
+  font-size: 3vw;
+}
+.placesdiv {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  justify-content: center;
+  margin-top: 3vw;
+}
+.spots {
+  display: flex;
+  flex-direction: column;
+}
+.placeimg {
+  width: 60vw;
+  height: 30vw;
+  position: relative;
+}
+.placeimg img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.spots k {
+  font-size: 1.5vw;
+  display: flex;
+  justify-content: center;
+
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  width: 25vw;
+  text-align: center;
+  border: 2px solid transparent;
+  padding: 0.5vw;
+  border-radius: 20px;
+  background-color: rgba(170, 170, 170, 0.612);
+  color: rgb(250, 250, 250);
+  transform: translate(-50%, -50%);
+}
+/*footer*/
+.footer {
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vw;
+  font-size: 1.5vw;
+  text-transform: capitalize;
+}
